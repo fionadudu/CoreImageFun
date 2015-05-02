@@ -13,6 +13,7 @@
 		F25799E61AE395E100320E29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F25799E51AE395E100320E29 /* Images.xcassets */; };
 		F25799E91AE395E100320E29 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F25799E71AE395E100320E29 /* LaunchScreen.xib */; };
 		F25799F51AE395E100320E29 /* CoreImageFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25799F41AE395E100320E29 /* CoreImageFunTests.swift */; };
+		F2579A001AE395F900320E29 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = F25799FF1AE395F900320E29 /* image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F25799EE1AE395E100320E29 /* CoreImageFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreImageFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25799F31AE395E100320E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F25799F41AE395E100320E29 /* CoreImageFunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageFunTests.swift; sourceTree = "<group>"; };
+		F25799FF1AE395F900320E29 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		F25799DC1AE395E100320E29 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F25799FE1AE395F900320E29 /* Resources */,
 				F25799DD1AE395E100320E29 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +113,14 @@
 				F25799F31AE395E100320E29 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F25799FE1AE395F900320E29 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F25799FF1AE395F900320E29 /* image.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +206,7 @@
 				F25799E41AE395E100320E29 /* Main.storyboard in Resources */,
 				F25799E91AE395E100320E29 /* LaunchScreen.xib in Resources */,
 				F25799E61AE395E100320E29 /* Images.xcassets in Resources */,
+				F2579A001AE395F900320E29 /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
